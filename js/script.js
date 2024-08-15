@@ -6,6 +6,8 @@ const input = document.querySelector('.input_search');
 
 const buttonPrev = document.querySelector('.btn-prev');
 const buttonNext = document.querySelector('.btn-next');
+const buttonStats = document.querySelector('.btn-stats');
+
 
 let searchPokemon = 1;
 
@@ -53,6 +55,10 @@ buttonPrev.addEventListener('click', () => {
         renderPokemon(searchPokemon);
     }
 });
+
+buttonStats.addEventListener('click', () => {
+    
+})
 
 buttonNext.addEventListener('click', () => {
     searchPokemon += 1;
